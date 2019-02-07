@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <backlog>100</backlog>
+    <outgoingAddress>0.0.0.0</outgoingAddress>
+    <listen>
+        <address>127.0.0.1</address>
+        <port>9151</port>
+    </listen>
+</configuration> 
