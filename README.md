@@ -4,3 +4,7 @@ tor has an api here:
 
 
 https://stem.torproject.org/
+
+sadly it uses BLOATED DISGUSTING NON-AGILE PYTHON
+
+I uploaded the new folder called "stem" that contains the api files
