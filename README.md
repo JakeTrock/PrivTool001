@@ -1,16 +1,6 @@
 # PrivTool001
-Tor/socks proxy privacy tool
+NOTE TO PHIL: DISREGARD THE SOCKS FOLDER WE WON'T USE THAT ANYMORE
+tor has an api here:
 
 
-I don't really know what I'm doing phil... We need to meet about this
-
-Reccomended reading for phil:
-
-
-https://en.wikipedia.org/wiki/SOCKS
-
-
-https://en.wikipedia.org/wiki/Tor_(anonymity_network)
-
-
-https://www.wikihow.com/Route-All-Network-Traffic-Through-the-Tor-Network
+https://stem.torproject.org/
