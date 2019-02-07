@@ -6,5 +6,9 @@ tor has an api here:
 https://stem.torproject.org/
 
 sadly it uses BLOATED DISGUSTING NON-AGILE PYTHON
+clone it from here:
 
-I uploaded the new folder called "stem" that contains the api files
+git clone https://git.torproject.org/stem.git
+
+
+also how the fucc do you delete folders
