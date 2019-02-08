@@ -11,4 +11,4 @@ clone it from here:
 git clone https://git.torproject.org/stem.git
 
 
-also how the fucc do you delete folders
+use chat.txt to talk with each other
