@@ -2,7 +2,6 @@ import io
 import pycurl
 import pygame #this is for UI later on down the line
 import stem.process
-from stem.control import Controller
 from stem.util import term
 
 SOCKS_PORT = 7000
@@ -52,14 +51,6 @@ tor_process = stem.process.launch_tor_with_config(
 print(term.format("\nChecking our endpoint:\n", term.Attr.BOLD))
 print(term.format(query("https://www.atagar.com/echo.php"), term.Color.BLUE))
 
+
+
 tor_process.kill()  # stops tor
-
-
-#Tnode code so you carry that weight
-with Controller.from_port(port = 9051) as controller:
-  controller.authenticate()  # provide the password here if you set one
-
-  bytes_read = controller.get_info("traffic/read")
-  bytes_written = controller.get_info("traffic/written")
-
-  print("My Tor relay has read %s bytes and written %s." % (bytes_read, bytes_written))

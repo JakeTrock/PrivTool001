@@ -1,5 +1,13 @@
 # PrivTool001
 
+PHIL: if you read this, put OK in the brackets []:
+your responsibility is loadbal.py
+Read about it here: https://stem.torproject.org/tutorials/the_little_relay_that_could.html
+
+I'm doing ru.py and the EPIC GUI
+
+
+
 tor has an api here:
 
 
