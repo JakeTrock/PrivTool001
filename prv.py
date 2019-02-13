@@ -1,6 +1,7 @@
 import io
 import pycurl
-import pygame #this is for UI later on down the line
+from kivy.app import App
+from kivy.uix.button import Button
 import stem.process
 from stem.util import term
 
@@ -8,28 +9,12 @@ SOCKS_PORT = 7000
 
 tor_country = '{ru}'
 
-def main():
-    pygame.init()
-    screen = pygame.display.set_mode((640,480))
-    logo = pygame.image.load("logo01.png")
-    pygame.display.set_icon(logo)
-    pygame.display.set_caption("PrivacyTool")
-    sebutton = pygame.image.load("secconnect.png")
-    screen.blit(sebutton, (240,340))
-    sebutton.set_colorkey((255,255,255))
-    running = True
-    # main loop
-    while running:
-        # event handling, gets all event from the event queue
-        for event in pygame.event.get():
-            # only do something if the event is of type QUIT
-            if event.type == pygame.QUIT:
-                # change the value to False, to exit the main loop
-                running = False
+class gui(App):
+    def build(self):
+        return Button(text='Secure Connection')
 
-if __name__=="__main__":
-    main()
-    
+gui().run()
+
 #tor API section
 """
 def query(url):
