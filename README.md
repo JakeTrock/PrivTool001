@@ -30,4 +30,4 @@ use chat.txt to talk with each other
 
 
 Leads:
-https://stackoverflow.com/questions/1201771/how-to-set-proxy-in-windows-with-python
+EDIT CONFS: https://www.reddit.com/r/learnprogramming/comments/aq9u72/any_way_to_set_up_a_https_proxy_with_python/
