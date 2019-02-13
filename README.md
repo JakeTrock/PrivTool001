@@ -26,3 +26,8 @@ clone it from here:
 git clone https://git.torproject.org/stem.git
 
 use chat.txt to talk with each other
+
+
+
+Leads:
+https://stackoverflow.com/questions/1201771/how-to-set-proxy-in-windows-with-python
