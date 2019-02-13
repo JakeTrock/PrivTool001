@@ -1,6 +1,6 @@
 # PrivTool001
 
-PHIL: if you read this, put OK in the brackets []:
+PHIL: if you read this, put OK in the brackets [ok]:
 your responsibility is loadbal.py
 Read about it here: https://stem.torproject.org/tutorials/the_little_relay_that_could.html
 
