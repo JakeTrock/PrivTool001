@@ -1,2 +1,0 @@
-Jake> Phil are you here yet?
-Jake>features we now need: GUI, tool to list all available exit nodes, some way to edit the windows registry to add our proxy as the central proxy
