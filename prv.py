@@ -5,6 +5,11 @@ from stem.util import term
 from kivy.app import App
 from kivy.uix.button import Button
 
+import win32con
+import win32api
+import os #PHIL INSTALL DIS https://github.com/mhammond/pywin32 
+#jake: https://simpletutorials.com/c/2074/What+is+PyWin32%3F http://timgolden.me.uk/pywin32-docs/PyWINHTTP_AUTOPROXY_OPTIONS.html
+
 SOCKS_PORT = 7000
 
 tor_country = '{??}'
