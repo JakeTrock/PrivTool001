@@ -10,7 +10,7 @@ class MainPage(GridLayout):
 		super(MainPage, self).__init__(**kwargs)
 		self.cols = 3
 		self.rows = 3
-		self.add_widget(Button(text="Connect"))
+		self.add_widget(Button(text="Connect", on_press=lambda x:self.btnTest()))
 
 	def btnTest(self):
 		print('button pressed')
