@@ -1,5 +1,5 @@
 from stem.control import Controller
-#tor node load balancer
+#tor node load balancer 
 with Controller.from_port(port = 9051) as controller:
   controller.authenticate()  # provide the password here if you set one
 
