@@ -2,9 +2,6 @@ import io
 import stem.process
 from stem.util import term
 
-from kivy.app import App
-from kivy.uix.button import Button
-
 import win32con
 import win32api
 import os #PHIL INSTALL DIS https://github.com/mhammond/pywin32 
