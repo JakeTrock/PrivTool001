@@ -23,30 +23,26 @@ countrySelect.pack()
 
 def connect():
 	tor_country = "{"+ nations_prognames[nations_engnames.index(country.get())] + "}"
+	print(tor_country)
 	def query(url):
-  
             output = io.BytesIO()
-
             def print_bootstrap_lines(line):
                 if "Bootstrapped " in line:
                     print(term.format(line, term.Color.BLUE))
-
-
             print(term.format("Starting Tor:\n", term.Attr.BOLD))
-
             tor_process = stem.process.launch_tor_with_config(
                 config = {
                     'SocksPort': str(SOCKS_PORT),
                     'ExitNodes': tor_country,
                 },
-            init_msg_handler = print_bootstrap_lines,
-    )
-        
-def disconnect():
-    tor_process.kill()
-    
+                init_msg_handler = print_bootstrap_lines,
+            )
 connectButton = Button(master, text="Connect", command=connect)
 connectButton.pack()
+
+def disconnect():
+    tor_process.kill()
+
 disconnectButton = Button(master, text="Disconnect", command=disconnect)
 disconnectButton.pack()
 mainloop()
